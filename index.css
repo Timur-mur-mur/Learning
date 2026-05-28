@@ -1,0 +1,73 @@
+header {
+    height: 77px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-right: 250px;
+}
+
+header img {
+    width: 100px;
+    object-fit: contain;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px ;
+    
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner {
+
+    position: relative;
+    background-image: url(https://img.freepik.com/premium-vector/wheat-field-view-with-harvester-tractor-mill-house-beautiful-sky-agricultural-vector_175103-1533.jpg?semt=ais_hybrid&w=740);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: #3e9342;
+    margin: 0px 150px 0px 150px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+    
+    
+}
+
+.text_styl{
+
+font-size: 40px;
+}
+
+
